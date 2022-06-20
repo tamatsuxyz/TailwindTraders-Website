@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/tamatsuprd/Tailwind%20Traders/_apis/build/status/tamatsuxyz.TailwindTraders-Website?branchName=main)](https://dev.azure.com/tamatsuprd/Tailwind%20Traders/_build/latest?definitionId=16&branchName=main)
+
 # Tailwind Traders Website
 
 ![Tailwind Traders Website](Documents/Images/Website.png)
