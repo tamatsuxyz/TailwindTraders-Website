@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 variables:
   azureSubscription: 'Azure Internal - Sponsorship'
-  resourcegroup: Tailwind.Traders
+  resourcegroup: TailwindTraders
   location: japaneast
   ImageName: website
 
