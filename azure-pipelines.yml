@@ -21,7 +21,7 @@ steps:
     azureSubscription: $(azureSubscription)
     resourceGroupName: $(resourcegroup)
     location: $(location)
-    csmFile: Deploy/deployment.json
+    csmFile: TailwindTraders.Website/Deploy/deployment.json
 
 - task: keesschollaart.arm-outputs.arm-outputs.ARM Outputs@6
   displayName: ARM Outputs
@@ -34,7 +34,7 @@ steps:
   inputs:
     azureSubscriptionEndpoint: $(azureSubscription)
     azureContainerRegistry: $(acr).azurecr.io
-    dockerFile: Source/Tailwind.Traders.Web/Dockerfile
+    dockerFile: TailwindTraders.Website/Source/Tailwind.Traders.Web/Dockerfile
     arguments: '-t $(acr).azurecr.io/$(ImageName):$(Build.BuildId)'
     imageName: '$(ImageName):$(Build.BuildId)'
     includeLatestTag: true
